@@ -1,3 +1,4 @@
+
 # Gym AI Trainer 💪🤖
 
 **Your personal AI-powered fitness coach — built with cutting-edge technologies.**  
