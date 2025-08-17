@@ -40,7 +40,7 @@ http.route({
                     const name = `${first_name||''} ${last_name||''}`.trim();
                     const email = email_addresses[0]?.email_address;
                     try {
-                        ctx.runMutation(api.users.syncUser, {
+                       await ctx.runMutation(api.users.syncUser, {
                             clerkId: id,
                             email,
                             image: image_url,
