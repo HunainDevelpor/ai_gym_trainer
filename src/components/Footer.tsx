@@ -19,7 +19,7 @@ const Footer = () => {
                 code<span className="text-primary">flex</span>.ai
               </span>
             </Link>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-sm text-muted-foreground sm:flex sm:text-center sm:items-center">
               © {new Date().getFullYear()} codeflex.ai - All rights reserved -- made by Hunain
             </p>
           </div>
