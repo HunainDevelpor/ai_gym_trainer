@@ -24,7 +24,7 @@ export default defineSchema({
                 })),
             })),
         }),
-        userId:v.id("users"),
+        userId:v.string(),
         dietPlan:v.object({
             dailyCalories:v.number(),
             meals:v.array(v.object({
