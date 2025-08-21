@@ -23,7 +23,7 @@ const Navbar = () => {
       <nav className='flex items-center gap-5'>
         {isSignedIn?(
           <>
-          <Link href="/home" className='flex gap-1.5 items-center text-sm hover:text-primary transition-colors'>
+          <Link href="/" className='flex gap-1.5 items-center text-sm hover:text-primary transition-colors'>
           <HomeIcon size={16} />
           <span>Home</span>
           </Link>
